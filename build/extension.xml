@@ -1,0 +1,16 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	<id>com.sticksports.nativeExtensions.Network</id>
+	<versionNumber>0.6.0</versionNumber>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libNetworkIosExtension.a</nativeLibrary>
+				<initializer>NetworkExtensionInitializer</initializer>
+				<finalizer>NetworkExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+	</platforms>
+</extension>

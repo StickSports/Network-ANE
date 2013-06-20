@@ -1,0 +1,49 @@
+h1. Air Native Extension for social messaging on iOS
+
+This is an "Air native extension":http://www.adobe.com/devnet/air/native-extensions-for-air.html for checking network connectivity on iOS. It works with a single common interface on iOS and on all platforms supported by Air's NetworkInfo class.
+
+h3. Binary files
+
+The bin folder contains the compiled extension and the default swc, which can be used for local testing if required by your development environment (Flash Builder shouldn't need it, but other IDEs may).
+
+h3. Using the extension
+
+h4. Test if the extension is supported
+
+@NetworkStatus.isSupported : Boolean;@
+
+Is a boolean. Will return false on platforms where the extension is not supported.
+
+h4. Test if the device has an active network connection
+
+@NetworkStatus.hasConnection : Boolean;@
+
+h4. Get a vector of all network interfaces
+
+@NetworkStatus.findInterfaces() : Vector.<NetworkInterface>@
+
+h4. Receive notifications when the network status changes
+
+@NetworkStatus.startCheckingForConnection( interval : int ) : void@
+
+where interval is the number of seconds between each check.
+
+When the network status changes the signal
+
+@NetworkStatus.networkStatusChanged@
+
+will dispatch, with a parameter indicating if the network has a connection or not. So listen for this signal with a function like
+
+@function statusChanged( hasConnection : Boolean ) :void { ... }@
+
+which you add to the signal with
+
+@NetworkStatus.networkStatusChanged.add( statusChanged );@
+
+To stop polling for changes in the connection status
+
+@NetworkStatus.stopCheckingForConnection() : void@
+
+h3. License
+
+This project is licensed under the "BSD license":https://github.com/StickSports/Network-ANE/blob/master/LICENSE

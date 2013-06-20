@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7956341E16C1385A00F194CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7956341D16C1385A00F194CD /* Foundation.framework */; };
+		7956342516C1385A00F194CD /* NetworkIosExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956342416C1385A00F194CD /* NetworkIosExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7956341816C1385A00F194CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7956341A16C1385A00F194CD /* libNetworkIosExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkIosExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956341D16C1385A00F194CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7956342416C1385A00F194CD /* NetworkIosExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkIosExtension.m; sourceTree = "<group>"; };
+		7956342B16C13A2F00F194CD /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7956341716C1385A00F194CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956341E16C1385A00F194CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7956341116C1385A00F194CD = {
+			isa = PBXGroup;
+			children = (
+				7956341F16C1385A00F194CD /* NetworkIosExtension */,
+				7956341C16C1385A00F194CD /* Frameworks */,
+				7956341B16C1385A00F194CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7956341B16C1385A00F194CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7956341A16C1385A00F194CD /* libNetworkIosExtension.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7956341C16C1385A00F194CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7956341D16C1385A00F194CD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7956341F16C1385A00F194CD /* NetworkIosExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7956342B16C13A2F00F194CD /* FlashRuntimeExtensions.h */,
+				7956342416C1385A00F194CD /* NetworkIosExtension.m */,
+			);
+			path = NetworkIosExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7956341916C1385A00F194CD /* NetworkIosExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956342816C1385A00F194CD /* Build configuration list for PBXNativeTarget "NetworkIosExtension" */;
+			buildPhases = (
+				7956341616C1385A00F194CD /* Sources */,
+				7956341716C1385A00F194CD /* Frameworks */,
+				7956341816C1385A00F194CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkIosExtension;
+			productName = NetworkIosExtension;
+			productReference = 7956341A16C1385A00F194CD /* libNetworkIosExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7956341216C1385A00F194CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stick Sports";
+			};
+			buildConfigurationList = 7956341516C1385A00F194CD /* Build configuration list for PBXProject "NetworkIosExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7956341116C1385A00F194CD;
+			productRefGroup = 7956341B16C1385A00F194CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7956341916C1385A00F194CD /* NetworkIosExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7956341616C1385A00F194CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956342516C1385A00F194CD /* NetworkIosExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7956342616C1385A00F194CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos6.0;
+			};
+			name = Debug;
+		};
+		7956342716C1385A00F194CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7956342916C1385A00F194CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NetworkIosExtension.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7956342A16C1385A00F194CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NetworkIosExtension.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7956341516C1385A00F194CD /* Build configuration list for PBXProject "NetworkIosExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956342616C1385A00F194CD /* Debug */,
+				7956342716C1385A00F194CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7956342816C1385A00F194CD /* Build configuration list for PBXNativeTarget "NetworkIosExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956342916C1385A00F194CD /* Debug */,
+				7956342A16C1385A00F194CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7956341216C1385A00F194CD /* Project object */;
+}
