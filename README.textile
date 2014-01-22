@@ -1,4 +1,4 @@
-h1. Air Native Extension for social messaging on iOS
+h1. Air Native Extension for checking network connectivity on iOS
 
 This is an "Air native extension":http://www.adobe.com/devnet/air/native-extensions-for-air.html for checking network connectivity on iOS. It works with a single common interface on iOS and on all platforms supported by Air's NetworkInfo class.
 
