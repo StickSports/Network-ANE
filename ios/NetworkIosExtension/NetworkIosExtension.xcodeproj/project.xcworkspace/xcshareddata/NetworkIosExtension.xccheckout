@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>644EC285-15F6-402A-A6C9-D093A3BDAC99</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NetworkIosExtension</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3B9CD66C463F96460189EB52BC1326313C7A1F35</key>
+		<string>https://github.com/StickSports/Network-ANE.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/NetworkIosExtension/NetworkIosExtension.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3B9CD66C463F96460189EB52BC1326313C7A1F35</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/StickSports/Network-ANE.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3B9CD66C463F96460189EB52BC1326313C7A1F35</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3B9CD66C463F96460189EB52BC1326313C7A1F35</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Network-ANE</string>
+		</dict>
+	</array>
+</dict>
+</plist>
